@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
-  app: "docker-react-prod-app"
-  env: "Dockerreactprodapp-env-1"
+  app: "docker-display"
+  env: "Dockerdisplay-env"
   bucket_name: "elasticbeanstalk-ap-south-1-585360292342"
-  bucket_path: "docker-react-prod-app"
+  bucket_path: "docker-display"
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
